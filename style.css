@@ -1,0 +1,381 @@
+/* If the browser window is smaller than 600px, make the div stack on top of each other */
+@media only screen and (max-width: 600px) {
+    .body {
+      display: block;
+      width: 80%;
+    }
+  }
+.wrapper {
+    width: 100vh;
+    height: 60rem;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-top: 1%;
+    border: none;
+    box-shadow: 0.5em 0.7em 0.7em 0.2em rgb(146, 146, 146);
+}
+/*
+.identity{
+    position: fixed;
+
+}
+*/
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: green;
+    text-decoration: none;
+  }
+
+
+.name{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 25px;
+}
+
+.position{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 12px;
+    margin-top: -1rem;
+}
+
+.email{
+    float: right;
+    margin-top: -4rem;
+    margin-right: 1.5rem;
+}
+
+img[alt="Email"]{
+    float: right;
+    margin-top: -4rem;
+}
+
+.phone{
+    float: right;
+    margin-top: -2.5rem;
+    margin-right: 1.5rem;
+}
+
+img[alt="phone"]{
+    float: right;
+    margin-top: -2.6rem;
+    margin-right: -6.1rem;
+}
+
+.statement{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 1rem;
+    color: grey;
+}
+
+.statement_line{
+    margin-top: -1.5rem;
+}
+
+.professional_skills{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 280px;
+    margin-top: -0.5rem;
+}
+
+img[alt="stack"]{
+    margin-top: -1em;
+    
+}
+
+.statement_line2{
+    margin-top: 1rem;
+}
+
+h4{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 14px;
+}
+
+h6{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 13px;
+    
+}
+
+.body{
+    column-count: 2;
+    column-gap: 60px;
+}
+/* PERSONAL DATA*/
+h4[class="personal_data"]{
+    text-align: right;
+    color: grey;
+}
+
+hr[class="personal_data"]{
+    margin-top: -1rem;
+}
+
+h6[class="personal_data"]{
+    margin: 2.5px;
+    
+}
+/*EDUCATION*/
+h4[class="education"]{
+    text-align: right;
+    color: grey;
+    margin-top: 0rem;
+}
+
+hr[class="education"]{
+    margin-top: -1rem;
+}
+
+h6[class="education"]{
+    margin: 2.5px; 
+    text-align: right;
+    line-height: 10px;
+}
+h6[class="cert"]{
+    margin-top: -0.5rem;
+    color: grey;  
+}
+h6[class="education2"]{
+    text-align: right;
+    margin-top: -1.5rem; 
+    line-height: 10px;
+}
+h6[class="cert1"]{
+    margin-top: -1.9rem; 
+    color: grey; 
+}
+h6[class="education3"]{
+    text-align: right;
+    margin-top: -1.5rem; 
+    line-height: 10px;
+}
+h6[class="cert2"]{
+    margin-top: -1.6rem; 
+    color: grey; 
+}
+
+/*EXPERIENCE*/
+h4[class="experience"]{
+    text-align: right;
+    color: grey;
+    margin-top: -1.5rem;
+}
+hr[class="experience"]{
+    margin-top: -1rem;
+}
+
+h6[class="Y-LINKS"]{
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+h6[class="experience1"]{
+    margin-top: -1.5rem; 
+    line-height: 10px;
+}
+h6[class="experience2"]{
+    margin-top: -1.3rem; 
+    line-height: 18px;
+}
+h6[class="foursquare"]{
+    margin-top: -1.5rem;
+    text-align: right;
+}
+h6[class="experience3"]{
+    margin-top: -1.3rem; 
+    line-height: 18px;
+}
+h6[class="experience4"]{
+    margin-top: -1.9rem; 
+    line-height: 18px;
+}
+h6[class="intetran"]{
+    margin-top: -1.5rem;
+    text-align: right;
+}
+h6[class="experience5"]{
+    margin-top: -1.9rem; 
+    line-height: 18px;
+}
+
+/*WORKSHOPS*/
+h4[class="workshop"]{
+    text-align: left;
+    color:black;
+    margin-top: -1.5rem;
+}
+hr[class="workshop"]{
+    margin-top: -1rem;
+}
+h6[class="workshop1"]{
+    text-align: left;
+    margin-top: -0.5rem; 
+    line-height: 10px;
+    color: grey;
+}
+h6[class="workshop2"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 10px;
+    color: grey;
+}
+h6[class="workshop3"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 10px;
+    color: grey;
+}
+
+/*PROFESSIONAL CERTIFICATE*/
+h4[class="pro_certificate"]{
+    text-align: left;
+    color:black;
+    margin-top: -1.5rem;
+}
+hr[class="pro_certificate"]{
+    margin-top: -1rem;
+}
+h6[class="pro_certificate"]{
+    text-align: left;
+    margin-top: -1rem; 
+    line-height: 15px;
+    color: grey;
+}
+/*PERSONAL SKILLS*/
+h4[class="personal_skills"]{
+    text-align: left;
+    color:black;
+    margin-top: -1.5rem;
+}
+hr[class="personal_skills"]{
+    margin-top: -1rem;
+}
+h6[class="skill1"]{
+    text-align: left;
+    margin-top: -0.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="skill2"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="skill3"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="skill4"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="skill5"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+/*INTERESTS*/
+h4[class="interests"]{
+    text-align: left;
+    color:black;
+    margin-top: -1.5rem;
+}
+hr[class="interests"]{
+    margin-top: -1rem;
+}
+h6[class="interest1"]{
+    text-align: left;
+    margin-top: -0.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="interest2"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="interest3"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="interest4"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+h6[class="interest5"]{
+    text-align: left;
+    margin-top: -1.5rem; 
+    line-height: 15px;
+    color: grey;
+}
+
+/*FOOTER*/
+h4[class="connect"]{
+    text-align: left;
+    color: grey;
+    font-size: 15px;
+}
+hr[class="connect"]{
+    margin-top: -1rem;
+}
+img[alt="github"]{
+    float: left;
+}
+.github{
+    float: left;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+}
+img[alt="behance"]{
+    float: left;
+    margin-left: 6rem;
+}
+.behance{
+    float: left;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+}
+
+img[alt="twitter"]{
+    float: left;
+    margin-left: 3rem;
+}
+.twitter{
+    float: left;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+}
